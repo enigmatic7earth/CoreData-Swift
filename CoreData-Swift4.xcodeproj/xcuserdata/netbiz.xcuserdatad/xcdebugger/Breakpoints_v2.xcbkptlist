@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreData-Swift4/TableViewController.swift"
+            timestampString = "554645495.344034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "add_employee(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreData_Swift4.TableViewController.add_employee(Any) -&gt; ()"
+                  moduleName = "CoreData-Swift4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/netbiz/Documents/Prashant/Practice/CoreData-Swift4/CoreData-Swift4/TableViewController.swift"
+                  timestampString = "551965278.416728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreData_Swift4.TableViewController.add_employee(Any) -&gt; ()"
+                  moduleName = "CoreData-Swift4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/netbiz/Documents/Prashant/Practice/CoreData-Swift4/CoreData-Swift4/TableViewController.swift"
+                  timestampString = "551965278.419906"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "786">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (__ObjC.UIAlertAction) -&gt; () in CoreData_Swift4.TableViewController.add_employee(Any) -&gt; ()"
+                  moduleName = "CoreData-Swift4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/netbiz/Documents/Prashant/Practice/CoreData-Swift4/CoreData-Swift4/TableViewController.swift"
+                  timestampString = "551965278.423028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreData-Swift4/TableViewController.swift"
+            timestampString = "554645495.34444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "loadTableData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreData-Swift4/ViewController.swift"
+            timestampString = "554646510.800277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreData-Swift4/ViewController.swift"
+            timestampString = "554646510.800678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableViewRowAction&gt;, Swift.ImplicitlyUnwrappedOptional&lt;Foundation.IndexPath&gt;) -&gt; () in CoreData_Swift4.ViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
+                  moduleName = "CoreData-Swift4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/netbiz/Documents/Prashant/Practice/CoreData-Swift4/CoreData-Swift4/ViewController.swift"
+                  timestampString = "553785425.047286"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "1243">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableViewRowAction&gt;, Swift.ImplicitlyUnwrappedOptional&lt;Foundation.IndexPath&gt;) -&gt; () in CoreData_Swift4.ViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
+                  moduleName = "CoreData-Swift4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/netbiz/Documents/Prashant/Practice/CoreData-Swift4/CoreData-Swift4/ViewController.swift"
+                  timestampString = "553785425.050058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "1358">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (__ObjC.UIAlertAction) -&gt; () in closure #1 (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableViewRowAction&gt;, Swift.ImplicitlyUnwrappedOptional&lt;Foundation.IndexPath&gt;) -&gt; () in CoreData_Swift4.ViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
+                  moduleName = "CoreData-Swift4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/netbiz/Documents/Prashant/Practice/CoreData-Swift4/CoreData-Swift4/ViewController.swift"
+                  timestampString = "553785425.05278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreData-Swift4/ViewController.swift"
+            timestampString = "554646510.80098"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rio-Rq-zG0"/>
+                        <viewControllerLayoutGuide type="bottom" id="qrg-Mo-NPB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="PyG-GN-KMI">
+                                <rect key="frame" x="93.5" y="239.5" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PyG-GN-KMI" secondAttribute="height" multiplier="1:1" id="WhG-ob-XQC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Core Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoc-te-ebx">
+                                <rect key="frame" x="134.5" y="427" width="106" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 11, Swift 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nD4-Da-c5M">
+                                <rect key="frame" x="147.5" y="457" width="81" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Fte-qs-9bL">
+                                <rect key="frame" x="93.5" y="209.5" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="XSE-Al-6WN"/>
+                                    <constraint firstAttribute="width" secondItem="Fte-qs-9bL" secondAttribute="height" multiplier="1:1" id="nI0-Yq-WpV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nD4-Da-c5M" firstAttribute="top" secondItem="Zoc-te-ebx" secondAttribute="bottom" id="2jd-GC-Ouq"/>
+                            <constraint firstItem="Fte-qs-9bL" firstAttribute="leading" secondItem="PyG-GN-KMI" secondAttribute="leading" id="B11-Zz-Pev"/>
+                            <constraint firstItem="PyG-GN-KMI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="K6u-Tk-GMS"/>
+                            <constraint firstItem="PyG-GN-KMI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QTY-0J-Nxa"/>
+                            <constraint firstItem="Zoc-te-ebx" firstAttribute="top" secondItem="PyG-GN-KMI" secondAttribute="bottom" id="Rgj-r7-xIF"/>
+                            <constraint firstItem="PyG-GN-KMI" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="jWO-GY-djn"/>
+                            <constraint firstItem="PyG-GN-KMI" firstAttribute="top" secondItem="Fte-qs-9bL" secondAttribute="bottom" id="poE-4z-sap"/>
+                            <constraint firstItem="nD4-Da-c5M" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tiV-DO-Phg"/>
+                            <constraint firstItem="Zoc-te-ebx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x6B-Ca-NTZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="300" height="327"/>
+        <image name="swift-icon" width="512" height="512"/>
+    </resources>
+</document>
